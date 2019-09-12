@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .fondo {
+            background-color: greenyellow;
+        }
+
+        .ul {
+            border: solid 1px red;
+            text-decoration: none;
+            width: 100%;
+
+        }
+
+        .img {
+            width: 250px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close" onclick="javascript:CloseModal();">X</a>
+            <h2>Mi modal</h2>
+            <div id="data">
+
+            </div>
+            </p>
+        </div>
+    </div>
+
+    <a href="#close" onclick="javascript:showModal();">Ver</a>
+
+    <div>
+        <ul id="products" class="fondo">
+
+        </ul>
+    </div>
+
+
+
+    <script src="json.js"></script>
+    <script src="function.js"></script>
+
+</body>
+
+</html>
